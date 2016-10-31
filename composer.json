@@ -1,12 +1,16 @@
 {
-    "name": "intercom/intercom-php",
+    "name": "arquivei/intercom-php",
     "description": "Intercom API client built on top of Guzzle 6",
-    "keywords": ["intercom", "intercom.io", "api", "guzzle"],
+    "keywords": ["intercom", "intercom.io", "api", "guzzle", "arquivei"],
     "license": "Apache Version 2",
     "authors": [
         {
             "name": "Intercom Platform Team",
             "homepage": "http://intercom.io"
+        },
+        {
+            "name": "Arquivei Team",
+            "homepage": "https://arquivei.com.br"
         }
     ],
     "autoload": {
