@@ -183,6 +183,9 @@ class IntercomClient
         $stream = stream_for($response->getBody());
         $data = json_decode($stream->getContents());
         $data->headers = $response->getHeaders();
+        if (empty($data)) {
+            $data = new stdClass();
+        }
         return $data;
     }
 }
