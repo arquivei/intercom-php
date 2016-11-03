@@ -183,7 +183,7 @@ class IntercomClient
         $stream = stream_for($response->getBody());
         $data = json_decode($stream->getContents());
         if (empty($data)) {
-            $data = new stdClass();
+            $data = new \stdClass();
         }
         $data->headers = $response->getHeaders();
         return $data;
